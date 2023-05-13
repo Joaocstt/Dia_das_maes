@@ -15,6 +15,7 @@
     box-sizing: border-box;
     background-image: url(https://img.freepik.com/vetores-gratis/fundo-do-quadro-de-flor-rosa-com-aquarela_65186-2566.jpg?w=2000);
     background-size: 100% 100%;
+    background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
 
@@ -67,7 +68,7 @@
     right: 20%;
     bottom: 0;
     width: 54%;
-    height: 80%;
+    height: 82%;
     background: var(--primary);
     text-align: center;
     transition: all 1s ease-in-out;
@@ -128,4 +129,12 @@
   .flap > .heart {
     transform: rotate(90deg);
     transition-delay: 0.4s;
+  }
+
+
+  .credito {
+    display: block;
+    margin-top: 10px;
+    font-size: 6px;
+    font-family: Arial, Helvetica, sans-serif;
   }
